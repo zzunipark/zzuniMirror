@@ -30,7 +30,7 @@ zzuniMirror는 Debian 또는 그와 비슷한 오픈 소스 소프트웨어를 �
 
 ## 제안 또는 악용 신고
 
-제한사항이 있거나 문의사항이 있으신 경우 me@zzunipark.com으로 메일을 보내주시거나 Up[Github Issue](https://github.com/zzunipark/zzuniMirror/issues/new)를 이용해 주시기 바랍니다.
+제한사항이 있거나 문의사항이 있으신 경우 me@zzunipark.com으로 메일을 보내주시거나 [Github Issue](https://github.com/zzunipark/zzuniMirror/issues/new)를 이용해 주시기 바랍니다.
 
 ## 기타 사항
 
