@@ -7,10 +7,9 @@
 zzuniMirror는 Debian 또는 그와 비슷한 오픈 소스 소프트웨어를 미러링하여 제공하는 서비스입니다.
 <br>
 <br>
-현재는 ftp, http를 통해서만 접근하실 수 있으며, 추후 https, rsync 등의 기타 방법을 추가해나갈 예정입니다.
+현재는 http를 통해서만 접근하실 수 있으며, 추후 ftp, https, rsync 등의 기타 방법을 추가해나갈 예정입니다.
 
 - http://mirror.zzunipark.com/mirror
-- ftp://mirror.zzunipark.com/mirror
 
 ## 제안 또는 악용 신고
 
