@@ -23,7 +23,7 @@ zzuniMirror는 Debian 또는 그와 비슷한 오픈 소스 소프트웨어를 �
 - Ubuntu-CD
 - Raspbian
 
-<small>패키지 추가를 제안하려면 하단 제안 또는 악용 신고 탭을 확인해 주세요.</small>Up
+<small>패키지 추가를 제안하려면 하단 제안 또는 악용 신고 탭을 확인해 주세요.</small>
 
 ## 제안 또는 악용 신고
 
