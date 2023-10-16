@@ -10,7 +10,7 @@ zzuniMirror는 Debian 또는 그와 비슷한 오픈 소스 소프트웨어를 �
 
 `Server Addresses`
 
-- http://mirror.zzunipark.com/mirror
+- http://mirror.zzunipark.com
 -
 
 `Known As`
