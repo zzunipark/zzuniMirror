@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>zzuniMirror</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/31b13c04b4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -44,19 +45,68 @@
         through <a href="https://github.com/zzunipark/zzuniMirror/issues">Github Issues</a>.
         <hr>
         </hr>
-    <p>
-    <h3>Package List</h3>
-    <a href="http://mirror.zzunipark.com/ubuntu">Ubuntu</a>
-    <br>
-    <a href="http://mirror.zzunipark.com/ubuntu-cd">Ubuntu-CD</a>
-    <br>
-    <a href="http://mirror.zzunipark.com/raspbian">Raspbian</a>
     </p>
+    <div class="icon-list">
+        <div class="icon-box">
+            <i class="fa-solid fa-check fa-3x" style="color: #77bb41;" class="icon"></i>
+            <p>Ready to Use</p>
+        </div>
+        <div class="icon-box">
+            <i class="fa-solid fa-x fa-3x" style="color: #ff2600;" class="icon"></i>
+            <p>Unable to Use</p>
+        </div>
+        <div class="icon-box">
+            <i class="fa-solid fa-arrows-rotate fa-3x" style="color: #5e30eb;" class="icon"></i>
+            <p>Syncing Package</p>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <th>Status</th>
+            <th>Package</th>
+            <th>Directory</th>
+            <th>Source</th>
+            <th>Sync Interval</th>
+        </tr>
+        <tr>
+            <td class="status"><i class="fa-solid fa-check fa-xl" style="color: #77bb41;"></i></td>
+            <td>Ubuntu</td>
+            <td><a href="http://mirror.zzunipark.com/ubuntu">/ubuntu</a></td>
+            <td>kr.archive.ubuntu.com/ubuntu</td>
+            <td>12 hours</td>
+        </tr>
+        <tr>
+            <td class="status"><i class="fa-solid fa-check fa-xl" style="color: #77bb41;"></i></td>
+            <td>Ubuntu-CD</td>
+            <td><a href="http://mirror.zzunipark.com/ubuntu-cd">/ubuntu-cd</a></td>
+            <td>kr.rsync.releases.ubuntu.com/releases</td>
+            <td>12 hours</td>
+        </tr>
+        <tr>
+            <td class="status"><i class="fa-solid fa-check fa-xl" style="color: #77bb41;"></i></td>
+            <td>Raspbian</td>
+            <td><a href="http://mirror.zzunipark.com/raspbian">/raspbian</a></td>
+            <td>archive.raspbian.org/archive</td>
+            <td>12 hours</td>
+        </tr>
+        <tr>
+            <td class="status"><i class="fa-solid fa-check fa-xl" style="color: #77bb41;"></i></td>
+            <td>Opnsense</td>
+            <td><a href="http://mirror.zzunipark.com/opnsense">/opnsense</a></td>
+            <td>rsync.opnsense.org/opnsense-dist</td>
+            <td>12 hours</td>
+        </tr>
+    </table>
+    <p style="margin-top: 3px;"><small>The information within the status is not updated in real-time, and some
+            information may be inaccurate.<br>when recommended to check the package status before mirroring the
+            package.</small></p>
     <footer>
         <p>
-            <small><a href="./terms-of-service/">Terms of Service</a> | <a href="">Service Status</a><br>
+            <small><a href="./terms-of-service/">Terms of Service</a> | <a href="https://zzunipark.statuspage.io"
+                    target="_blank">Service Status</a><br>
                 <sub><sup>Ubuntu is a registered trademark of Canonical Ltd. / Raspbian is a registered trademark of the
-                        Raspberry Pi Foundation.</sup></sub></small>
+                        Raspberry Pi Foundation. / Opnsense is a registered trademark of the Deciso
+                        B.V..</sup></sub></small>
         </p>
     </footer>
 </body>
